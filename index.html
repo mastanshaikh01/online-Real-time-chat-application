@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temporary chat app</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="chat-container">
+      <header class="chat-header">
+        <h1>Temp Chat</h1>
+      </header>
+      <div id="chat-box" class="chat-box"></div>
+      <form id="chat-form" class="chat-form">
+        <input
+          type="text"
+          id="chat-input"
+          class="chat-input"
+          placeholder="Type a message..."
+          required
+        />
+        <button type="submit" class="send-button">Send</button>
+      </form>
+      <div class="toggle-user">
+        <button id="switch-user" class="switch-user">Switch to User 2</button>
+        <button id=" " class="clear-chat">Clear Chat</button>
+      </div>
+    </div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
