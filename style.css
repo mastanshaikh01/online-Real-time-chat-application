@@ -31,6 +31,19 @@ body {
   padding: 15px;
   background-color: #f9f9f9;
 }
+.message-left {
+  text-align: left;
+  background-color: #f1f1f1;
+  border-radius: 10px 10px 10px 0;
+  margin: 5px;
+}
+.message-right {
+  text-align: right;
+  background-color: #d1e7fd;
+  border-radius: 10px 10px 0 10px;
+  margin: 5px;
+}
+
 
 .chat-message {
   margin-bottom: 15px;
